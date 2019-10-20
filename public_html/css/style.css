@@ -1,0 +1,149 @@
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:small;
+	background-color: #ffffe8;
+}
+
+table {
+    border-collapse: collapse;
+	background-color: white;
+}
+
+table, th, td {
+    border: 1px solid grey;
+	padding-top: 1px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 120%;
+}
+
+td {
+	font-size:small;
+}
+
+td.time_game {
+    color: black;
+	width: 80px;
+}
+
+td.time_game_expired {
+    color: red;
+	width: 80px;
+}
+
+td.team_name {
+	font-size: 90%;
+	width: 180px;
+}
+
+td.team_name_TBD {
+	font-size: 90%;
+	width: 180px;
+	color: #b70000;
+	font-weight: bold;
+}
+
+td.favori {
+	width: 200px;
+}
+
+td.favori_out {
+	width: 200px;
+	color: red;
+}
+
+td.favori_win {
+	width: 200px;
+	color: green;
+}
+
+td.odds {
+	width: 50px;
+}
+
+td.en_cours {
+	color: black;
+}
+
+td.lose {
+	color: red;
+}
+
+td.win {
+	color: blue;
+}
+
+td.win_exact {
+	color: green;
+}
+
+td.expired {
+	background-color: #ff7a7a;
+	width: 55px;
+	text-align: center;
+}
+
+td.numbers {
+	width: 50px;
+	text-align: center;
+}
+
+div.player_name {
+	font-size: 200%;
+}
+
+div.journee {
+	font-size: 115%;
+}
+
+div.league_name {
+	font-size: 150%;
+}
+
+div.winner {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+#top_msg {
+    position: absolute;
+    z-index: 6001;
+	top: -50;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 2.5;
+	background-color: #fde073;
+	animation-name: anim;
+    animation-duration: 4s;
+}
+
+@keyframes anim {
+	0% { top: -50; }
+	30% { top: 0; }
+	85% { top: 0; }
+    100% { top: -50; }
+}
+select {
+	background-color: #FFFFBD;
+}
+
+img.teemo {
+	width: 400px;
+	
+}
+
+a.w3-hover-green:hover{
+	color:#fff!important;background-color:#b4b6ba!important
+}
+
+a {
+	text-decoration: none;
+}
